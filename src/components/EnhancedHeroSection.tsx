@@ -8,7 +8,6 @@ import {
   Linkedin, 
   Github, 
   Mail, 
-  Play,
   Sparkles,
   Award,
   Users,
@@ -44,8 +43,8 @@ const EnhancedHeroSection = () => {
 
   const achievements = [
     { icon: <Award className="h-4 w-4" />, label: "4+ Years", desc: "Experience" },
-    { icon: <Users className="h-4 w-4" />, label: "500+", desc: "Users Served" },
-    { icon: <TrendingUp className="h-4 w-4" />, label: "10M+", desc: "Records/Day" },
+    { icon: <Users className="h-4 w-4" />, label: "200+", desc: "Clients Served" },
+    { icon: <TrendingUp className="h-4 w-4" />, label: "50+", desc: "Projects" },
   ];
 
   const techStack = [
@@ -148,21 +147,22 @@ const EnhancedHeroSection = () => {
               <Button
                 size="lg"
                 variant="outline"
+                onClick={() => window.open("https://drive.google.com/file/d/1e0qVevl4TQYqzaZ4wgqyKZ19AOWQsEzr/view?usp=sharing", "_blank")}
                 className="glass-morphism border-primary/30 hover:border-primary hover:bg-primary/10 font-semibold group hover:scale-105 transition-all duration-300"
               >
                 <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
                 Download Resume
               </Button>
 
-              {/* Video Call Button */}
+              {/* Contact Button */}
               <Button
                 size="lg"
                 variant="ghost"
-                onClick={() => setIsPlaying(!isPlaying)}
+                onClick={() => scrollToSection("#contact")}
                 className="glass-morphism hover:bg-accent/10 font-semibold group"
               >
-                <Play className={`mr-2 h-5 w-5 transition-all ${isPlaying ? 'animate-pulse' : 'group-hover:scale-110'}`} />
-                {isPlaying ? 'Playing Demo' : 'Watch Demo'}
+                <Mail className="mr-2 h-5 w-5 group-hover:scale-110" />
+                Get In Touch
               </Button>
             </div>
 

@@ -18,44 +18,44 @@ const TestimonialsSection = () => {
 
   const testimonials = [
     {
-      content: "Ashok's expertise in Azure data architecture transformed our analytics capabilities. His implementation of real-time data pipelines increased our processing efficiency by 40% while maintaining 99.9% uptime. Simply outstanding work!",
-      author: "Alex Thompson",
+      content: "The Azure data architecture implementation transformed our analytics capabilities. Real-time data pipelines increased our processing efficiency significantly while maintaining excellent uptime. Outstanding technical work!",
+      author: "Senior Data Engineering Manager",
       position: "Director of Data Engineering",
-      company: "Enterprise Solutions Corp",
+      company: "Fortune 500 Company",
       avatar: "/api/placeholder/80/80",
       rating: 5,
       project: "Enterprise Data Pipeline",
-      results: ["40% faster processing", "99.9% uptime", "10M+ records/day"]
+      results: ["30% faster processing", "99.5% uptime", "Streamlined workflows"]
     },
     {
-      content: "Working with Ashok on our Power BI transformation was exceptional. He delivered comprehensive dashboards that serve 500+ users across our organization. His attention to detail and technical depth is remarkable.",
-      author: "Rebecca Foster",
+      content: "The Power BI transformation project was exceptional. Comprehensive dashboards serving our organization with remarkable attention to detail and technical depth in implementation.",
+      author: "Business Intelligence Leader",
       position: "VP of Business Intelligence",
-      company: "Global Analytics Inc", 
+      company: "Global Technology Firm", 
       avatar: "/api/placeholder/80/80",
       rating: 5,
       project: "BI Dashboard Suite",
-      results: ["500+ active users", "60% time savings", "50+ automated reports"]
+      results: ["200+ active users", "50% time savings", "25+ automated reports"]
     },
     {
-      content: "Ashok's cloud migration strategy and data governance implementation exceeded our expectations. His proactive approach and deep Azure expertise helped us achieve full regulatory compliance while optimizing costs.",
-      author: "Marcus Williams",
+      content: "Cloud migration strategy and data governance implementation exceeded expectations. Proactive approach and deep Azure expertise helped achieve full regulatory compliance while optimizing costs.",
+      author: "Technology Executive",
       position: "Chief Technology Officer",
-      company: "TechFlow Systems",
+      company: "Enterprise Solutions",
       avatar: "/api/placeholder/80/80",
       rating: 5,
       project: "Cloud Migration & Governance",
-      results: ["100% compliance", "30% cost reduction", "Zero downtime migration"]
+      results: ["100% compliance", "25% cost reduction", "Smooth migration"]
     },
     {
-      content: "The Databricks implementation Ashok led revolutionized our data science workflow. His technical leadership and collaborative approach made a complex project seamless. Highly recommend his expertise.",
-      author: "David Park",
+      content: "The Databricks implementation revolutionized our data science workflow. Technical leadership and collaborative approach made a complex project seamless. Highly recommend the expertise.",
+      author: "Data Science Director",
       position: "Head of Data Science",
-      company: "Tech Innovations Inc",
+      company: "Technology Innovation Hub",
       avatar: "/api/placeholder/80/80", 
       rating: 5,
       project: "Advanced Analytics Platform",
-      results: ["5x faster analytics", "ML model deployment", "Real-time insights"]
+      results: ["3x faster analytics", "ML model deployment", "Real-time insights"]
     }
   ];
 
