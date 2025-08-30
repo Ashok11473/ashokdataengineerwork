@@ -4,20 +4,21 @@ import { GraduationCap, Award, Code, Database, Cloud, BarChart } from "lucide-re
 
 const AboutSection = () => {
   const skills = [
-    { name: "Azure Synapse", level: 95, category: "Cloud" },
-    { name: "Power BI", level: 98, category: "BI" },
-    { name: "Databricks", level: 90, category: "Analytics" },
-    { name: "SQL", level: 95, category: "Database" },
-    { name: "Python", level: 88, category: "Programming" },
-    { name: "Snowflake", level: 85, category: "Cloud" },
-    { name: "Azure Data Factory", level: 92, category: "ETL" },
-    { name: "Tableau", level: 87, category: "BI" },
+    { name: "Azure Synapse", level: 95, category: "Cloud", icon: "☁️" },
+    { name: "Power BI", level: 98, category: "BI", icon: "📊" },
+    { name: "Databricks", level: 90, category: "Analytics", icon: "🔧" },
+    { name: "SQL", level: 95, category: "Database", icon: "🗄️" },
+    { name: "Python", level: 88, category: "Programming", icon: "🐍" },
+    { name: "Snowflake", level: 85, category: "Cloud", icon: "❄️" },
+    { name: "Azure Data Factory", level: 92, category: "ETL", icon: "🔄" },
+    { name: "Tableau", level: 87, category: "BI", icon: "📈" },
   ];
 
   const certifications = [
     "Certified Power BI Developer",
-    "Azure Data Engineer Associate",
-    "Azure Solutions Architect",
+    "Complete Guide to Power BI for Data Analysts by Microsoft Press",
+    "Microsoft Azure Data Engineer Associate (DP-203) Cert Prep by Microsoft Press",
+    "Microsoft Azure Fundamentals (AZ 900) Cert Prep: 1 Cloud Concepts",
   ];
 
   return (
@@ -102,7 +103,10 @@ const AboutSection = () => {
                   {skills.map((skill, index) => (
                     <div key={index} className="space-y-2">
                       <div className="flex justify-between items-center">
-                        <span className="font-medium text-sm">{skill.name}</span>
+                        <div className="flex items-center space-x-2">
+                          <span className="text-lg">{skill.icon}</span>
+                          <span className="font-medium text-sm">{skill.name}</span>
+                        </div>
                         <Badge variant="secondary" className="text-xs">
                           {skill.category}
                         </Badge>

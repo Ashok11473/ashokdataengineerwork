@@ -17,7 +17,7 @@ import {
   Database,
   Cloud
 } from "lucide-react";
-import ashokProfile from "@/assets/ashok-profile.jpg";
+import ashokProfile from "@/assets/ashok-new-profile.jpg";
 
 const EnhancedHeroSection = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -49,10 +49,10 @@ const EnhancedHeroSection = () => {
   ];
 
   const techStack = [
-    { name: "Azure", color: "primary" },
-    { name: "Power BI", color: "accent-orange" },
-    { name: "Databricks", color: "accent" },
-    { name: "Python", color: "accent-pink" },
+    { name: "Azure", color: "primary", icon: "☁️" },
+    { name: "Power BI", color: "accent-orange", icon: "📊" },
+    { name: "Databricks", color: "accent", icon: "🔧" },
+    { name: "Python", color: "accent-pink", icon: "🐍" },
   ];
 
   return (
@@ -121,9 +121,9 @@ const EnhancedHeroSection = () => {
                     key={tech.name} 
                     variant="secondary" 
                     className="glass-morphism border-0 text-sm py-2 px-4 hover:scale-105 transition-transform cursor-default"
-                    style={{ animationDelay: `${1.4 + index * 0.1}s` }}
+                     style={{ animationDelay: `${1.4 + index * 0.1}s` }}
                   >
-                    <Sparkles className="h-3 w-3 mr-1" />
+                    <span className="mr-1">{tech.icon}</span>
                     {tech.name}
                   </Badge>
                 ))}
