@@ -172,7 +172,7 @@ const EnhancedHeroSection = () => {
               {/* Social Links */}
               <div className="flex space-x-3">
                 {[
-                  { icon: Linkedin, href: "#", color: "primary" },
+                  { icon: Linkedin, href: "https://www.linkedin.com/in/ashok-srinivas-1877bb20b", color: "primary" },
                   { icon: Github, href: "#", color: "foreground" },
                   { icon: Mail, href: "mailto:ashoksrinivas2001@gmail.com", color: "accent" },
                 ].map((social, index) => (
@@ -181,6 +181,7 @@ const EnhancedHeroSection = () => {
                     variant="ghost" 
                     size="icon" 
                     className="glass-morphism hover:scale-110 hover:rotate-6 transition-all duration-300 hover:shadow-lg"
+                    onClick={() => window.open(social.href, "_blank")}
                   >
                     <social.icon className="h-5 w-5" />
                   </Button>

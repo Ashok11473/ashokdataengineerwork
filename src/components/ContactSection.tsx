@@ -77,7 +77,7 @@ const ContactSection = () => {
     {
       icon: <Linkedin className="h-5 w-5" />,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/ashok-srinivas",
+      href: "https://www.linkedin.com/in/ashok-srinivas-1877bb20b",
       color: "primary"
     },
     {

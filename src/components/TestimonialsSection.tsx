@@ -19,9 +19,9 @@ const TestimonialsSection = () => {
   const testimonials = [
     {
       content: "Ashok's expertise in Azure data architecture transformed our analytics capabilities. His implementation of real-time data pipelines increased our processing efficiency by 40% while maintaining 99.9% uptime. Simply outstanding work!",
-      author: "Sarah Mitchell",
+      author: "Alex Thompson",
       position: "Director of Data Engineering",
-      company: "Manulife Financial Corporation",
+      company: "Enterprise Solutions Corp",
       avatar: "/api/placeholder/80/80",
       rating: 5,
       project: "Enterprise Data Pipeline",
@@ -29,9 +29,9 @@ const TestimonialsSection = () => {
     },
     {
       content: "Working with Ashok on our Power BI transformation was exceptional. He delivered comprehensive dashboards that serve 500+ users across our organization. His attention to detail and technical depth is remarkable.",
-      author: "Michael Chen",
+      author: "Rebecca Foster",
       position: "VP of Business Intelligence",
-      company: "Aviva Life Insurance", 
+      company: "Global Analytics Inc", 
       avatar: "/api/placeholder/80/80",
       rating: 5,
       project: "BI Dashboard Suite",
@@ -39,9 +39,9 @@ const TestimonialsSection = () => {
     },
     {
       content: "Ashok's cloud migration strategy and data governance implementation exceeded our expectations. His proactive approach and deep Azure expertise helped us achieve full regulatory compliance while optimizing costs.",
-      author: "Jennifer Rodriguez",
+      author: "Marcus Williams",
       position: "Chief Technology Officer",
-      company: "Brickredsys",
+      company: "TechFlow Systems",
       avatar: "/api/placeholder/80/80",
       rating: 5,
       project: "Cloud Migration & Governance",
